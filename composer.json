@@ -1,0 +1,32 @@
+{
+    "name": "diatem-net/jin-form",
+    "description": "Utility classes to create forms.",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Loïc Gérard",
+            "email": "lgerard@diatem.net"
+        },
+        {
+            "name": "Jean-Luc Fritz",
+            "email": "jlfritz@diatem.net"
+        },
+        {
+            "name": "Samuel Marchal",
+            "email": "smarchal@diatem.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "dapphp/securimage": "~3.6",
+        "diatem-net/jin-assets": "~2.0",
+        "diatem-net/jin-language": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jin2\\": "src/"
+        }
+    }
+}

@@ -1,2 +1,4 @@
-# jin-form
-Utility classes to create forms.
+# Jin-Form
+
+Jin-Form is part of the Jin Framework.  
+It contains a bunch of utility classes to create forms.
