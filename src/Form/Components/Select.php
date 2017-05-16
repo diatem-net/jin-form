@@ -30,7 +30,7 @@ class Select extends AbstractComponent
    */
   public static function getType()
   {
-    return 'inputdatetime';
+    return 'select';
   }
 
   /**
