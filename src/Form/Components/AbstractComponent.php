@@ -19,52 +19,52 @@ abstract class AbstractComponent implements AssetsInterface
   /**
    * @var string  Nom du composant
    */
-  private $name;
+  protected $name;
 
   /**
    * @var string  Id du composant
    */
-  private $id = '';
+  protected $id = '';
 
   /**
    * @var string Personnalisation de la balise style
    */
-  private $style = '';
+  protected $style = '';
 
   /**
    * @var array Classes appliquées
    */
-  private $classes = array();
+  protected $classes = array();
 
   /**
    * @var array Attributs ajoutés
    */
-  private $attributes = array();
+  protected $attributes = array();
 
   /**
    * @var string Texte d'erreur affiché
    */
-  private $error = '';
+  protected $error = '';
 
   /**
    * @var string classe d'erreur affiché
    */
-  private $errorclass = 'error';
+  protected $errorclass = 'error';
 
   /**
    * @var string|array  Valeur actuelle.
    */
-  private $value = null;
+  protected $value = null;
 
   /**
    * @var string|array  Placeholder
    */
-  private $placeholder = null;
+  protected $placeholder = null;
 
   /**
    * @var string  Label affiché
    */
-  private $label = '';
+  protected $label = '';
 
   /**
    * Constructeur

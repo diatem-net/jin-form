@@ -16,12 +16,12 @@ class Select extends AbstractComponent
   /**
   * @var array
   */
-  private $values;
+  protected $values;
 
   /**
    * @var array Attributs ajoutés sur select
    */
-  private $selectAttributes = array();
+  protected $selectAttributes = array();
 
   /**
    * Implémente la fonction AbstractComponent::getType()

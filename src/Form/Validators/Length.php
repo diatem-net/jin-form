@@ -79,7 +79,7 @@ class Length extends AbstractValidator
    * @param string $code  Code erreur (cf. fichier langue formvalidators.ini)
    * @return string
    */
-  private function prepareError($code)
+  protected function prepareError($code)
   {
     $min = $this->getArgValue('min');
     $max = $this->getArgValue('max');

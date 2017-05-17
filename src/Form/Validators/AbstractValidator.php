@@ -19,13 +19,13 @@ abstract class AbstractValidator
    *
    * @var array  Liste des erreurs
    */
-  private $errors = array();
+  protected $errors = array();
 
   /**
    *
    * @var array  Paramètres
    */
-  private $args = array();
+  protected $args = array();
 
   /**
    * Constructeur

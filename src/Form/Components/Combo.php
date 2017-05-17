@@ -16,12 +16,12 @@ class Combo extends AbstractComponent
   /**
    * @var array   Valeurs des cases.
    */
-  private $values = array();
+  protected $values = array();
 
   /**
    * @var array  Valeurs a présélectionner. (Tableau de la forme array('value',...))
    */
-  private $checkedValues = array();
+  protected $checkedValues = array();
 
   /**
    * Implémente la fonction AbstractComponent::getType()

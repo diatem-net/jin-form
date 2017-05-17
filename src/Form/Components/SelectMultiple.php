@@ -16,17 +16,17 @@ class SelectMultiple extends AbstractComponent
   /**
    * @var array
    */
-  private $values;
+  protected $values;
 
   /**
    * @var array  Valeurs sélectionnées. (Tableau de la forme array('value',...))
    */
-  private $selectedValues = array();
+  protected $selectedValues = array();
 
   /**
    * @var array Attributs ajoutés sur select
    */
-  private $selectattributes = array();
+  protected $selectattributes = array();
 
   /**
    * Implémente la fonction AbstractComponent::getType()

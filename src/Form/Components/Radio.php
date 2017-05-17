@@ -16,7 +16,7 @@ class Radio extends AbstractComponent
   /**
    * @var array   Valeurs des cases.
    */
-  private $values = array();
+  protected $values = array();
 
   /**
    * Implémente la fonction AbstractComponent::getType()

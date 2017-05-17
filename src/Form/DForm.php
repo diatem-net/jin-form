@@ -18,17 +18,17 @@ class DForm
   /**
    * @var array   Champs contenus dans le formulaire
    */
-  private $fields = array();
+  protected $fields = array();
 
   /**
    * @var array   Champs pièce jointe contenus dans le formulaire
    */
-  private $attachementFields = array();
+  protected $attachementFields = array();
 
   /**
    * @var string  Classe erreur appliquée aux composants ayant généré une erreur de validation
    */
-  private $errorClassName = 'error';
+  protected $errorClassName = 'error';
 
   /**
    * Ajout d'un champ
@@ -179,7 +179,7 @@ class DForm
    * @return array
    * @throws \Exception
    */
-  private function checkForm($saveFiles = false)
+  protected function checkForm($saveFiles = false)
   {
     $valide = true;
     $allErrors = array();

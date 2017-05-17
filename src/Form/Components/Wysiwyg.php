@@ -66,7 +66,7 @@ class Wysiwyg extends AbstractComponent
    *
    * @return string
    */
-  private static function loadAssets()
+  protected static function loadAssets()
   {
     self::$assetsLoaded = true;
     return static::getAssetContent('js');
