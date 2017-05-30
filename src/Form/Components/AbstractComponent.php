@@ -80,7 +80,7 @@ abstract class AbstractComponent implements AssetsInterface
       . DIRECTORY_SEPARATOR .'..'
       . DIRECTORY_SEPARATOR .'..'
       . DIRECTORY_SEPARATOR .'languages';
-    Translation::addStorage($root);
+    Translation::addStorage($root, 0);
     Translation::loadFile('formcomponents');
   }
 
